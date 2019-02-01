@@ -1,0 +1,27 @@
+{
+  "name": "ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^0.2.3",
+    "@types/node": "^9.6.7",
+    "@types/synaptic": "^1.0.3",
+    "brain.js": "^1.6.1",
+    "pg": "^7.4.1",
+    "reflect-metadata": "^0.1.10",
+    "synaptic": "^1.1.4",
+    "typeorm": "^0.2.9",
+    "typescript": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3",
+    "ts-node": "^6.0.1"
+  }
+}
